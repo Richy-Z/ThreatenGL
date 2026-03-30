@@ -1,15 +1,18 @@
 {
   "schemaVersion": 1,
 
-  "id": "threatengl",
+  "id": "maxgl",
   "version": "${version}",
 
-  "name": "ThreatenGL",
-  "description": "Threatens Minecraft to use a different version of OpenGL.",
+  "name": "MaxGL",
+  "description": "Forces Minecraft to use OpenGL 4.6. Fork of ThreatenGL updated for Minecraft 26.1.",
 
   "authors": [
     {
-      "name": "Richy Z.",
+      "name": "Plexescor"
+    },
+    {
+      "name": "Richy Z. (original ThreatenGL)",
       "contact": {
         "homepage": "https://richy.lol"
       }
@@ -17,12 +20,9 @@
   ],
 
   "contact": {
-    "homepage": "https://modrinth.com/mod/threatengl",
-
-    "sources": "https://github.com/Richy-Z/ThreatenGL",
-    "issues": "https://github.com/Richy-Z/ThreatenGL/issues",
-
-    "discord": "https://discord.gg/eYEDsnKh2T"
+    "homepage": "https://modrinth.com/mod/maxgl",
+    "sources": "https://github.com/Plexescor/MaxGL",
+    "issues": "https://github.com/Plexescor/MaxGL/issues"
   },
 
   "license": "LGPL-3.0-only",
@@ -42,8 +42,8 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.15.11",
-    "minecraft": ">=1.17",
+    "fabricloader": ">=0.18.5",
+    "minecraft": "26.1",
     "java": ">=25"
   }
 }
